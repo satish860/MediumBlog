@@ -4,7 +4,7 @@ function Header() {
   return (
     <header className="flex justify-between max-w-7xl p-5 mx-auto">
       <div className="flex items-center space-x-5">
-        <Link href="/">
+        <Link href="/" className="cursor-pointer">
           <img className="w-44 object-contain" src="/MediumIcon.png" />
         </Link>
         <div className="hidden md:inline-flex items-center space-x-5">
